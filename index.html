@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>LOVE — Our Story · Issue 01</title>
+    <meta name="description"
+        content="A luxury digital love magazine — full-bleed photography, bold editorial spreads, and a lifetime of memories.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Inter:wght@300;400;500;600;700&family=Dancing+Script:wght@600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- AUDIO -->
+    <audio id="bg-audio" loop>
+        <source src="https://assets.mixkit.co/music/preview/mixkit-beautiful-dream-200.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- ════════════════ HEADER (mix-blend-difference) ════════════════ -->
+    <header id="site-header" class="site-header">
+        <button id="menu-btn" class="hdr-menu" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+        <a href="#" class="hdr-logo" id="home-logo">LOVE</a>
+        <div class="hdr-right">
+            <button id="music-btn" class="hdr-icon" title="Toggle music">♪</button>
+            <span id="issue-tag">ISSUE 01</span>
+        </div>
+    </header>
+
+    <!-- ════════════════ SIDE MENU ════════════════ -->
+    <nav id="side-menu" class="side-menu">
+        <button class="menu-close" id="menu-close">✕</button>
+        <div class="sm-logo">LOVE</div>
+        <ul class="sm-links">
+            <li><a href="#" data-section="0">Cover</a></li>
+            <li><a href="#" data-section="1">Our First Hello</a></li>
+            <li><a href="#" data-section="2">Timeline</a></li>
+            <li><a href="#" data-section="3">Memories</a></li>
+            <li><a href="#" data-section="4">Love Letter</a></li>
+            <li><a href="#" data-section="5">Why I Love You</a></li>
+            <li><a href="#" data-section="6">Our Moments</a></li>
+            <li><a href="#" data-section="7">Film</a></li>
+            <li><a href="#" data-section="8">Soundtrack</a></li>
+            <li><a href="#" data-section="9">Always</a></li>
+        </ul>
+        <div class="sm-foot">US &amp; OUR STORY — ISSUE 01</div>
+    </nav>
+    <div class="menu-overlay" id="menu-overlay"></div>
+
+    <!-- ════════════════ MAGAZINE TRACK ════════════════ -->
+    <main id="mag-track" class="mag-track">
+
+        <!-- ══ SECTION 0: COVER ══════════════════════════════════ -->
+        <section class="mag-section cover-section" data-index="0" id="sec-0">
+            <div class="full-photo">
+                <img src="	https://i.pinimg.com/736x/d6/dc/dc/d6dcdc1ef7deea91e6135a2e19c15458.jpg" alt="Cover"
+                    class="photo-fill">
+                <div class="photo-vignette"></div>
+            </div>
+            <div class="cover-text">
+                <!-- <p class="cover-issue">SPECIAL EDITION · ISSUE NO. 01 · 2024</p> -->
+                <h1 class="cover-title">LOVE</h1>
+                <p class="cover-sub">Our Story</p>
+                <p class="cover-line">"Will you let me shower you with amazing gifts?"</p>
+                <button class="cover-open" id="cover-open">
+                    Begin Reading
+                    <svg viewBox="0 0 24 24" width="16">
+                        <path fill="currentColor" d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z" />
+                    </svg>
+                </button>
+            </div>
+            <div class="cover-toc">
+                <span>P.1 — Our First Hello</span>
+                <span>P.3 — Timeline</span>
+                <span>P.5 — Love Letter</span>
+                <span>P.9 — Soundtrack</span>
+            </div>
+        </section>
+
+        <!-- ══ SECTION 1: OUR FIRST HELLO ════════════════════════ -->
+        <section class="mag-section editorial-section" data-index="1" id="sec-1">
+            <div class="editorial-left">
+                <div class="full-photo">
+                    <img src="https://i.pinimg.com/736x/d2/a2/8a/d2a28a2e4ff593c0ecc900a0615143bd.jpg" alt="First Hello"
+                        class="photo-fill">
+                    <div class="photo-vignette dark"></div>
+                    <div class="photo-caption-corner">
+                        <span class="pcc-date">JAN 15, 2023</span>
+                        <span class="pcc-label">The Day It All Started</span>
+                    </div>
+                </div>
+            </div>
+            <div class="editorial-right paper-bg">
+                <div class="ed-inner">
+                    <div class="ed-eyebrow">EDITORIAL · INTRO</div>
+                    <h2 class="ed-headline">Our First<br><em>Hello</em></h2>
+                    <div class="ed-rule"></div>
+                    <p class="ed-drop-cap"><span>E</span>very great love story begins with a single moment — a chance
+                        greeting that alters the course of our lives forever.</p>
+                    <p class="ed-body">When we first spoke, the world became a bit brighter, and I felt a spark that
+                        would soon light up my entire existence. The way you smiled, the way you held my gaze — it told
+                        me everything I needed to know.</p>
+                    <p class="ed-body">This chapter is dedicated to that magical first Hello — the instant everything
+                        changed between us, forever.</p>
+                    <blockquote class="ed-pull">"In that moment,<br>everything changed."</blockquote>
+                    <p class="ed-sig">— Your Forever Love ❤️</p>
+                    <div class="ed-page-num">01</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ══ SECTION 2: TIMELINE ════════════════════════════════ -->
+        <section class="mag-section timeline-section" data-index="2" id="sec-2">
+            <div class="full-photo tl-photo">
+                <img src="https://i.pinimg.com/736x/71/4d/ac/714dacfeb486d6737b4dfe74643e5c52.jpg" alt="Timeline"
+                    class="photo-fill">
+                <div class="photo-vignette heavy"></div>
+            </div>
+            <div class="tl-overlay">
+                <div class="tl-header">
+                    <div class="ed-eyebrow light">CHRONICLES · TIMELINE</div>
+                    <h2 class="tl-title">Our <em>Milestones</em></h2>
+                </div>
+                <div class="tl-cards">
+                    <div class="tl-card">
+                        <span class="tlc-emoji">💫</span>
+                        <div class="tlc-body">
+                            <span class="tlc-date">JAN 15, 2023</span>
+                            <h3>The First Hello</h3>
+                            <p>The day our eyes met across the room and a single hello started this amazing adventure.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="tl-card">
+                        <span class="tlc-emoji">💝</span>
+                        <div class="tlc-body">
+                            <span class="tlc-date">FEB 14, 2023</span>
+                            <h3>First Valentine's</h3>
+                            <p>Celebrating our first Valentine's Day together, filled with roses and sweet smiles.</p>
+                        </div>
+                    </div>
+                    <div class="tl-card">
+                        <span class="tlc-emoji">✈️</span>
+                        <div class="tlc-body">
+                            <span class="tlc-date">JUNE 1, 2023</span>
+                            <h3>First Trip Together</h3>
+                            <p>Exploring new places hand-in-hand, building our very first travel memory catalog.</p>
+                        </div>
+                    </div>
+                    <div class="tl-card">
+                        <span class="tlc-emoji">🌙</span>
+                        <div class="tlc-body">
+                            <span class="tlc-date">TODAY &amp; BEYOND</span>
+                            <h3>And Beyond…</h3>
+                            <p>Every second with you is a gift. The future holds endless chapters to write together.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pg-num-corner">02</div>
+        </section>
+
+        <!-- ══ SECTION 3: PHOTO MEMORIES ═════════════════════════ -->
+        <section class="mag-section memories-section" data-index="3" id="sec-3">
+            <div class="mem-header">
+                <div class="ed-eyebrow">SCRAPBOOK · PHOTO MEMORIES</div>
+                <h2 class="ed-headline centered">Beautiful <em>Snapshots</em></h2>
+            </div>
+            <div class="mem-grid">
+                <div class="mem-cell mem-hero">
+                    <img src="https://i.pinimg.com/736x/d3/4d/a9/d34da9332f1a8b1b2897d43eb28cf7c9.jpg" alt="Memory 1"
+                        class="lb-trigger">
+                    <div class="mem-overlay">
+                        <span>Soft Smiles &amp; Laughter 🌸</span>
+                    </div>
+                </div>
+                <div class="mem-col">
+                    <div class="mem-cell">
+                        <img src="https://i.pinimg.com/736x/05/3b/4d/053b4d973563eb74f2da0eb9d3f373cc.jpg"
+                            alt="Memory 2" class="lb-trigger">
+                        <div class="mem-overlay"><span>Under the Stars ✨</span></div>
+                    </div>
+                    <div class="mem-cell">
+                        <img src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=600&q=90"
+                            alt="Memory 3" class="lb-trigger">
+                        <div class="mem-overlay"><span>Golden Moments 🌟</span></div>
+                    </div>
+                </div>
+            </div>
+            <!-- Polaroid row -->
+            <div class="polaroid-row">
+                <div class="pol pol-a">
+                    <img src="https://i.pinimg.com/736x/66/96/e6/6696e6f48560ce369cc18b5c31b01601.jpg" alt="p1">
+                    <span>Always smiling 🌸</span>
+                </div>
+                <div class="pol pol-b">
+                    <img src="https://i.pinimg.com/736x/0a/6b/f0/0a6bf0218d905bd8f23aa7f239f43cea.jpg" alt="p2">
+                    <span>The beach trip ☀️</span>
+                </div>
+                <div class="pol pol-c">
+                    <img src="https://i.pinimg.com/736x/47/d5/a3/47d5a324d1c20edf4be826aeba6b3b76.jpg" alt="p3">
+                    <span>Our midnight walk 🌙</span>
+                </div>
+                <div class="pol pol-d">
+                    <img src="https://i.pinimg.com/736x/df/f4/c6/dff4c659040b8680f83c4f7bc3bba5c8.jpg" alt="p4">
+                    <span>Coffee dates ☕</span>
+                </div>
+            </div>
+            <div class="pg-num-corner dark">03</div>
+        </section>
+
+        <!-- ══ SECTION 4: LOVE LETTER ═════════════════════════════ -->
+        <section class="mag-section letter-section" data-index="4" id="sec-4">
+            <div class="letter-photo-half">
+                <img src="https://i.pinimg.com/736x/cf/fc/16/cffc169b0d1367b6a3f1072c23d95d40.jpg" alt="Love"
+                    class="photo-fill">
+                <div class="photo-vignette heavy"></div>
+                <div class="letter-photo-text">
+                    <span class="lpt-eyebrow">ESSAYS · LOVE LETTERS</span>
+                    <h2 class="lpt-title">A Private<br><em>Devotion</em></h2>
+                </div>
+            </div>
+            <div class="letter-right paper-bg">
+                <div class="letter-right-inner">
+                    <!-- ENVELOPE -->
+                    <div id="env-wrap" class="env-wrap">
+                        <div class="env-body" id="env-body">
+                            <div class="env-flap"></div>
+                            <div class="env-face">
+                                <p>Tap the seal to open your letter</p>
+                                <button class="wax-seal" id="wax-seal">❤️</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- OPEN LETTER -->
+                    <div id="open-letter" class="open-letter" style="display:none">
+                        <div class="letter-paper">
+                            <h3>My Dearest Love,</h3>
+                            <p class="tw-out" id="tw-out"></p>
+                            <p class="letter-sig">Yours Forever &amp; Always ❤️</p>
+                        </div>
+                    </div>
+                    <div class="ed-page-num">04</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ══ SECTION 5: WHY I LOVE YOU ═════════════════════════ -->
+        <section class="mag-section reasons-section" data-index="5" id="sec-5">
+            <div class="full-photo">
+                <img src="https://i.pinimg.com/736x/75/48/5c/75485c40c639fd251d18267db9fee203.jpg" alt="Love"
+                    class="photo-fill">
+                <div class="photo-vignette heavy"></div>
+            </div>
+            <div class="reasons-overlay">
+                <div class="ed-eyebrow light">ESSENCE · REASONS WHY</div>
+                <h2 class="reasons-title">Why I<br><em>Love You</em></h2>
+                <div class="reasons-cards">
+                    <div class="rc">
+                        <span class="rc-icon">💖</span>
+                        <h3>Your Kind Soul</h3>
+                        <p>How you care for everyone around you, bringing light into every room you enter.</p>
+                    </div>
+                    <div class="rc">
+                        <span class="rc-icon">🌟</span>
+                        <h3>Your Radiance</h3>
+                        <p>Your smile sweeps away any storm cloud, making ordinary days extraordinary.</p>
+                    </div>
+                    <div class="rc">
+                        <span class="rc-icon">🤗</span>
+                        <h3>Cozy Hugs</h3>
+                        <p>Where time stands still and I feel completely safe, protected, and warm.</p>
+                    </div>
+                    <div class="rc">
+                        <span class="rc-icon">🎵</span>
+                        <h3>Your Laugh</h3>
+                        <p>The most beautiful sound I've ever heard — I'd do anything to hear it every day.</p>
+                    </div>
+                    <div class="rc">
+                        <span class="rc-icon">🌙</span>
+                        <h3>Your Depth</h3>
+                        <p>The beautiful way you think and feel about the world.</p>
+                    </div>
+                    <div class="rc">
+                        <span class="rc-icon">💌</span>
+                        <h3>Your Presence</h3>
+                        <p>Simply being near you turns the ordinary into something magical and rare.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="pg-num-corner">05</div>
+        </section>
+
+        <!-- ══ SECTION 6: SPECIAL MOMENTS (grid of full-photo stories) ══ -->
+        <section class="mag-section stories-section" data-index="6" id="sec-6">
+            <div class="stories-header">
+                <div class="ed-eyebrow">ANECDOTES · SPECIAL MOMENTS</div>
+                <h2 class="ed-headline centered">Moments <em>We Share</em></h2>
+                <p class="stories-sub">Tap any story to read the memory.</p>
+            </div>
+            <div class="stories-grid">
+                <article class="story-card" data-story="travel">
+                    <div class="sc-photo"
+                        style="background-image:url('https://i.pinimg.com/736x/05/3b/4d/053b4d973563eb74f2da0eb9d3f373cc.jpg')">
+                    </div>
+                    <div class="sc-overlay"></div>
+                    <div class="sc-text">
+                        <span class="sc-cat">TRAVEL</span>
+                        <h3>Wanderlust<br>Together</h3>
+                        <p class="sc-sub">Places We've Discovered</p>
+                    </div>
+                </article>
+                <article class="story-card" data-story="food">
+                    <div class="sc-photo"
+                        style="background-image:url('https://i.pinimg.com/736x/d3/4d/a9/d34da9332f1a8b1b2897d43eb28cf7c9.jpg')">
+                    </div>
+                    <div class="sc-overlay"></div>
+                    <div class="sc-text">
+                        <span class="sc-cat">FOOD &amp; LAUGHTER</span>
+                        <h3>Midnight<br>Food Runs</h3>
+                        <p class="sc-sub">Our Late Night Adventures</p>
+                    </div>
+                </article>
+                <article class="story-card" data-story="movies">
+                    <div class="sc-photo"
+                        style="background-image:url('https://i.pinimg.com/736x/71/4d/ac/714dacfeb486d6737b4dfe74643e5c52.jpg')">
+                    </div>
+                    <div class="sc-overlay"></div>
+                    <div class="sc-text">
+                        <span class="sc-cat">FILM &amp; COZY</span>
+                        <h3>Movie<br>Nights</h3>
+                        <p class="sc-sub">Blankets, Snacks &amp; You</p>
+                    </div>
+                </article>
+                <article class="story-card" data-story="laughter">
+                    <div class="sc-photo"
+                        style="background-image:url('https://i.pinimg.com/736x/0a/6b/f0/0a6bf0218d905bd8f23aa7f239f43cea.jpg')">
+                    </div>
+                    <div class="sc-overlay"></div>
+                    <div class="sc-text">
+                        <span class="sc-cat">JOY &amp; SMILES</span>
+                        <h3>Inside<br>Jokes</h3>
+                        <p class="sc-sub">Only We Understand</p>
+                    </div>
+                </article>
+            </div>
+            <div class="pg-num-corner dark">06</div>
+        </section>
+
+        <!-- ══ SECTION 7: FILM / VIDEO ═══════════════════════════ -->
+        <section class="mag-section film-section" data-index="7" id="sec-7">
+            <div class="full-photo">
+                <img src="https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=1600&q=90" alt="Film"
+                    class="photo-fill">
+                <div class="photo-vignette heavy"></div>
+            </div>
+            <div class="film-overlay">
+                <div class="ed-eyebrow light">CINEMA · VIDEO MEMORIES</div>
+                <h2 class="film-title">Featured <em>Film</em></h2>
+                <div class="film-screen" id="film-screen">
+                    <button class="film-play" id="film-play">▶</button>
+                    <span class="film-fn">Our Romantic Film.mp4</span>
+                </div>
+                <p class="film-caption">"Every smile, laugh, and walk in the rain — a documentary of the luckiest person
+                    alive."</p>
+            </div>
+            <div class="pg-num-corner">07</div>
+        </section>
+
+        <!-- ══ SECTION 8: SOUNDTRACK ════════════════════════════ -->
+        <section class="mag-section music-section" data-index="8" id="sec-8">
+            <div class="music-bg">
+                <img src="https://images.unsplash.com/photo-1511379938547-c1f69b13d835?w=1600&q=90" alt="Music"
+                    class="photo-fill">
+                <div class="photo-vignette heavy"></div>
+            </div>
+            <div class="music-overlay">
+                <div class="music-left">
+                    <div class="ed-eyebrow light">SOUNDTRACK · MUSIC OF US</div>
+                    <h2 class="music-title">Our <em>Soundtrack</em></h2>
+                    <div class="vinyl-wrap">
+                        <div class="vinyl" id="vinyl">
+                            <div class="vinyl-grooves"></div>
+                            <div class="vinyl-lbl">♫</div>
+                        </div>
+                        <div class="vinyl-arm" id="vinyl-arm"></div>
+                    </div>
+                    <div class="eq-row" id="eq-row">
+                        <div class="eq-b"></div>
+                        <div class="eq-b"></div>
+                        <div class="eq-b"></div>
+                        <div class="eq-b"></div>
+                        <div class="eq-b"></div>
+                        <div class="eq-b"></div>
+                        <div class="eq-b"></div>
+                        <div class="eq-b"></div>
+                    </div>
+                </div>
+                <div class="music-right">
+                    <span class="np-badge">NOW PLAYING</span>
+                    <p class="np-title" id="np-title">Perfect — Ed Sheeran</p>
+                    <button class="play-btn" id="play-btn">▶ Play Record</button>
+                    <div class="plist">
+                        <div class="pl-row pl-active"
+                            data-src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+                            data-title="Perfect — Ed Sheeran">
+                            <span class="pl-n">01</span><span class="pl-t">Perfect — Ed Sheeran</span>
+                        </div>
+                        <div class="pl-row" data-src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3"
+                            data-title="All of Me — John Legend">
+                            <span class="pl-n">02</span><span class="pl-t">All of Me — John Legend</span>
+                        </div>
+                        <div class="pl-row" data-src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3"
+                            data-title="Thinking Out Loud — Ed Sheeran">
+                            <span class="pl-n">03</span><span class="pl-t">Thinking Out Loud — Ed Sheeran</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pg-num-corner">08</div>
+        </section>
+
+        <!-- ══ SECTION 9: FOREVER (finale) ═════════════════════ -->
+        <section class="mag-section finale-section" data-index="9" id="sec-9">
+            <div class="full-photo">
+                <img src="https://i.pinimg.com/736x/18/1d/97/181d972564ed2e14e8a0c4b5cf929172.jpg" alt="Forever"
+                    class="photo-fill">
+                <div class="photo-vignette heavy-warm"></div>
+            </div>
+            <div id="hearts-rain" class="hearts-rain"></div>
+            <div class="finale-overlay">
+                <span class="fin-issue">✦ US &amp; OUR STORY — ISSUE 01 ✦</span>
+                <h2 class="fin-title">Our Story<br><em>Continues…</em></h2>
+                <p class="fin-body">This is just the first issue of a volume that will span decades. I love you more
+                    with every page turned, and I can't wait for every chapter we have yet to write.</p>
+                <div class="fin-hearts" id="fin-hearts">❤️ 💖 💝</div>
+                <button class="fin-btn" id="fin-btn">Forever &amp; Always ❤️</button>
+            </div>
+            <div class="fin-footer">
+                <span>US &amp; OUR STORY · ISSUE 01</span>
+                <span>Made with ❤ for You</span>
+            </div>
+        </section>
+
+    </main><!-- /mag-track -->
+
+    <!-- PROGRESS BAR -->
+    <div class="progress-track">
+        <div class="progress-fill" id="progress-fill"></div>
+    </div>
+
+    <!-- SECTION NAV (pill indicators) -->
+    <nav class="section-nav" id="section-nav">
+        <!-- Built by JS -->
+    </nav>
+
+    <!-- STORY MODAL -->
+    <div id="story-modal" class="modal-wrap hidden">
+        <div class="modal-inner">
+            <button class="modal-x" id="modal-x">✕</button>
+            <div id="modal-content"></div>
+        </div>
+    </div>
+
+    <!-- LIGHTBOX -->
+    <div id="lightbox" class="lightbox hidden">
+        <button class="lb-x" id="lb-x">✕</button>
+        <img id="lb-img" src="" alt="Full view">
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
